@@ -1,0 +1,5 @@
+Instructions
+
+1. Write a C/CPP program that can calculate the FIRST set from a given CFG. (Just try step by step)
+
+2. Write a C/CPP program that can calculate the FOLLOW set from a given CFG. (Just try step by step)
