@@ -1,6 +1,6 @@
-# Compiler Design Course (C++)
+# Compiler Design Course (C and C++)
 
-This repository contains C++ code implementations and exercises from the **Compiler Design** course at **American International University - Bangladesh (AIUB)**. The repository showcases key concepts related to compiler construction, focusing on the various phases of compilation, including lexical analysis, syntax analysis, and intermediate code generation.
+This repository contains C and C++ code implementations and exercises from the **Compiler Design** course at **American International University - Bangladesh (AIUB)**. The repository showcases key concepts related to compiler construction, focusing on the various phases of compilation, including lexical analysis, syntax analysis, and intermediate code generation.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -44,34 +44,57 @@ These exercises were designed to deepen the understanding of how compilers work 
 
 ## Technologies Used
 
-- **Programming Language:** C++
+- **Programming Languages:**
+  - **C**
+  - **C++**
+    
 - **Tools and Libraries:**
-  - Standard C++ libraries
+  - Standard C/C++ libraries
   - Manual implementation of lexer, parser, and code generation without external tools like Flex or Bison.
 
 ## How to Run
 
-To run the C++ code implementations in this repository:
+
+### Running C Code
+To compile and run C files, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/Raihan4520/Compiler-Design.git
-2. Navigate to the folder containing the specific C++ code file you'd like to run.
-3. Compile the C++ code using a C++ compiler like g++:
+2. Navigate to the folder containing the specific C file you want to run.
+3. Compile the C code using a C compiler such as gcc:
    ```bash
-   g++ <filename>.cpp -o <output_name>
+   gcc <filename>.c -o <output_name>
 4. Run the compiled executable:
    ```bash
    ./<output_name>
 
-Example
-For instance, to run the lexical analyzer:
+### Example
+To compile and run an example code in C:
 ```bash
-g++ lexical_analyzer.cpp -o lexical_analyzer
-./lexical_analyzer
+gcc example_code.c -o example_code
+./example_code
 ```
 
-Follow the comments within each file for any specific input or instructions required to run that code.
+### Running C++ Code
+To compile and run C++ files, follow these steps:
+
+1. After cloning the repository, navigate to the folder containing the C++ file.
+2. Compile the C++ code using a C++ compiler like g++:
+   ```bash
+   g++ <filename>.cpp -o <output_name>
+3. Run the compiled executable:
+   ```bash
+   ./<output_name>
+
+### Example
+To compile and run an example code in C++:
+```bash
+g++ example_code.cpp -o example_code
+./example_code
+```
+
+Each file in the repository is standalone, and comments are included in the code to guide you on the expected input and output for each program.
 
 ## Contact
 
