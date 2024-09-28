@@ -41,6 +41,10 @@ These exercises were designed to deepen the understanding of how compilers work 
    - **Key Concepts:**
      - Three-address code (TAC) generation.
      - Abstract syntax trees (AST) used for code generation.
+    
+### Course Information
+For more details on the course, refer to the [AIUB Undergraduate Course Catalog](https://www.aiub.edu/faculties/fst/ug-course-catalog).  
+*Note: Search for "Compiler Design" for specific course information.*
 
 ## Technologies Used
 
