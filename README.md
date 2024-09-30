@@ -2,6 +2,10 @@
 
 This repository contains C and C++ code implementations and exercises from the **Compiler Design** course at **American International University - Bangladesh (AIUB)**. The repository showcases key concepts related to compiler construction, focusing on the various phases of compilation, including lexical analysis, syntax analysis, and intermediate code generation.
 
+### Course Information
+For more details on the course, refer to the [AIUB Undergraduate Course Catalog](https://www.aiub.edu/faculties/fst/ug-course-catalog).  
+*Note: Search for "Compiler Design" for specific course information.*
+
 ## Table of Contents
 - [Overview](#overview)
 - [Course Topics Covered](#course-topics-covered)
@@ -42,10 +46,6 @@ These exercises were designed to deepen the understanding of how compilers work 
      - Three-address code (TAC) generation.
      - Abstract syntax trees (AST) used for code generation.
     
-### Course Information
-For more details on the course, refer to the [AIUB Undergraduate Course Catalog](https://www.aiub.edu/faculties/fst/ug-course-catalog).  
-*Note: Search for "Compiler Design" for specific course information.*
-
 ## Technologies Used
 
 - **Programming Languages:**
